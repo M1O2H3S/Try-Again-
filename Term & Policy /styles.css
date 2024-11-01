@@ -1,0 +1,320 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+ 
+ * {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+  padding: 0;
+  bottom: 0;
+  top: 0;
+}
+             /**Navbar**/
+/**box1**/
+
+.navbar {
+  height: 70px;
+  width: 110%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navlogo {
+  height: 63px;
+  width: 190px;
+}
+.logo {
+  background-image: url(/Black.png);
+  height: 50px;
+  background-size: cover;
+}
+/**End**/
+
+/**Panel**/
+.panelbar {
+  background-color: #494A5A;
+  display: flex;
+  
+}
+.paneloption {
+  display: flex;
+  color: #C7C9E4;
+  font-weight: 1rem;
+  margin-left: 10px;
+}
+.paneldeals {
+  color: #E7E7EB;
+  font-weight: 1.3rem;
+}
+.cart {
+  color: #FFFFFF;
+}
+#car {
+  font-size: 1.5rem;
+}
+.sir {
+  font-weight: 1rem;
+}
+.small {
+  font-weight: 0.50rem;
+}
+.Border {
+  border: 1.5px solid transparent;
+  text-decoration: none;
+}
+.Border:hover {
+  border: 1.5px solid white;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  padding: 2px;
+  text-decoration: none;
+} 
+.pannel {
+  background-color: #30313D;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30px;
+  width: 110%;
+}
+.pannelall {
+  color: #FBFBFF;
+  font-size: 1rem;
+  margin-right: 11.3pc;
+  text-decoration: none;
+}
+.paneloption {
+  width: 70%;
+  display: flex;
+  color: #EFEFEF;
+  font-size: 0.85rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
+.panneldeals a{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 1pc;
+  color: white;
+  text-decoration: none;
+}
+.left {
+  margin-right: 16.5px;
+  display: inline;
+  color: white;
+  text-decoration: none;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+ margin-right: 38pc;
+ height: 100%;
+  width: 380px;
+  transition: all 0.5;
+  height: 100%; 
+  position: absolute;
+  z-index: 10;
+  overflow: scroll;
+  box-shadow: 2px 2px 20px black;
+}
+.line {
+  margin: 1px;
+}
+.sidebar.active{
+  transform: translateX(0);
+}
+.btn-head  {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  color: white;
+}
+.btn-content a {
+  color: rgb(30, 39, 39);
+  text-decoration: none;
+}
+.btn-head h2 {
+  line-height: 60px;
+  color: white;
+  text-align: center;
+  
+}
+.btn-content h3 {
+  padding: 20px 21px;
+  color: rgb(30, 39, 39);
+}
+.btn-content ul div{
+  display: flex;
+  cursor: pointer;
+  transition: all 0.25s;
+  font-size: 14px;
+  color: rgb(20, 70, 70);
+  padding: 15px 25px;
+  justify-content: space-between;
+}
+.mark {
+  display: flex;
+  top: 20px;
+  left: 0px;
+  margin-left: 24pc;
+  position: absolute;
+  font-size: 40px;
+  z-index: 10%;
+  font-weight: bolder;
+}
+.Tark {
+  margin-bottom: 5pc;
+  height: 4pc;
+}
+.mark:hover {
+  display: none;
+}
+li {
+  list-style: none;
+}
+.fa-angle-right {
+  color: rgb(27, 27, 27);
+  margin-left: 20pc;
+}
+.solid {
+  color: rgb(27, 27, 27);
+  margin-left: 20pc;
+  display: flex;
+  margin-top: 1pc;
+  font-size: 3pc;
+  margin: 1px;
+  margin-left: 22pc;
+}
+
+ .btn-content ul div:hover {
+   background-color: rgb(230, 227, 227);
+ }
+ .btn-content ul {
+   padding-top: 9px;
+ }
+ .black {
+   position: absolute;
+   width: 0%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.7);
+ }
+ .black.active {
+   width: 100%;
+   z-index: 100%;
+ }
+
+ 
+/**End Pannal**/
+
+
+.All-T {
+  margin-left: pc;
+}
+ .terms-container {
+
+width: 100%;
+    margin: 50px auto;
+    padding: 40px;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 1pc;
+ font-weight: 800;
+ margin-left: 16.7pc;
+ 
+}
+
+.head {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+  margin-left: 1pc;
+  font-weight: 800;
+  
+}
+#last-updated {
+  margin-left: 24.7pc;
+  font-weight: bold;
+}
+.head2 {
+    margin-bottom: 15px;
+    margin-top: 1pc;
+  background-color: ghostwhite;
+  padding: 1pc;
+ font-style: italic;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+   
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 29px;
+    font-style: italic;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+}
+  #backToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Place the button at the bottom of the page */ /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap other elements */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #232f3e; /* Set background color */
+    color: white; /* Set text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 22px; /* Increase font size */
+}
+
+#backToTopBtn:hover {
+    background-color: #555; /* Add a dark-gray background on hover */
+}
