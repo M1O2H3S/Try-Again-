@@ -1,0 +1,81 @@
+.container {
+  width: 110%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.Forma {
+  background-color: white;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.Forma h3 {
+  color: black;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+#name {
+  border: 0;
+  margin: 10px;
+  padding: 20px;
+  outline: none;
+  background-color: #f5f5f5;
+  font-size: 16px;
+  margin-top: 1pc;
+}
+#email {
+  border: 0;
+margin: 10px;
+  padding: 20px;
+  outline: none;
+  background-color: #f5f5f5;
+  font-size: 16px;
+}
+#phone {
+  border: 0;
+  margin: 10px;
+  padding: 20px;
+  outline: none;
+  background-color: #f5f5f5;
+  font-size: 16px;
+}
+#message {
+  border: 0;
+  margin:10px;
+  padding: 20px;
+  outline: none;
+  background-color: #f5f5f5;
+  font-size: 16px;
+  
+}
+
+ .Button {
+  padding: 15px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+.Log {
+     height: 4pc;
+       margin-left: 14pc;
+       margin-bottom: 1pc;
+   }
+   .Logoa {
+     height: 10pc;
+       margin-left: 19pc;
+       margin-bottom: 1pc;
+   }

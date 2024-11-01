@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap'); 
+ 
+ * {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+  padding: 0;
+  bottom: 0;
+  top: 0;
+}
+             /**Navbar**/
+/**box1**/
+body  {
+      background-color: #EDEFEF;
+    }
+
+.navbar {
+  height: 65px;
+  width: 120%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Logo {
+  
+  color: white;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.Border {
+  border: 1.5px solid transparent;
+}
+.Border:hover {
+  border: 1.5px solid white;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  padding: 2px;
+} 
+
+
+
+/**Panel**/
+.panelbar {
+  background-color: #494A5A;
+  display: flex;
+  
+}
+.paneloption {
+  display: flex;
+  color: #C7C9E4;
+  font-weight: 1rem;
+  margin-left: 10px;
+}
+.paneldeals {
+  color: #E7E7EB;
+  font-weight: 1.3rem;
+}
+.cart {
+  color: #FFFFFF;
+}
+#car {
+  font-size: 1.5rem;
+}
+.sir {
+  font-weight: 1rem;
+}
+.small {
+  font-weight: 0.50rem;
+}
+.pannel {
+  background-color: #30313D;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30px;
+  width: 120%;
+}
+.pannelall {
+  color: #FBFBFF;
+  font-size: 1rem;
+  margin-right: 17.3pc;
+  text-decoration: none;
+}
+.paneloption {
+  width: 70%;
+  display: flex;
+  color: #EFEFEF;
+  font-size: 0.85rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
+.panneldeals a{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 2pc;
+  color: white;
+}
+.left {
+  margin-right: 17.5px;
+  display: inline;
+  color: white;
+  text-decoration: none;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+ margin-right: 38pc;
+ height: 100%;
+  width: 380px;
+  transition: all 0.5;
+  height: 100%; 
+  position: absolute;
+  z-index: 10;
+  overflow: scroll;
+  box-shadow: 2px 2px 20px black;
+}
+.line {
+  margin: 1px;
+}
+.sidebar.active{
+  transform: translateX(0);
+}
+.btn-head  {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  color: white;
+}
+.btn-content a {
+  color: rgb(30, 39, 39);
+  text-decoration: none;
+  margin-top: 0.50pc;
+}
+.btn-head h2 {
+  line-height: 60px;
+  color: white;
+  text-align: center;
+  
+}
+.btn-content h3 {
+  padding: 20px 21px;
+  color: rgb(30, 39, 39);
+}
+.btn-content ul div{
+  display: flex;
+  cursor: pointer;
+  transition: all 0.25s;
+  font-size: 14px;
+  color: rgb(20, 70, 70);
+  padding: 9px 25px;
+  justify-content: space-between;
+}
+.mark {
+  display: flex;
+  top: 20px;
+  left: 0px;
+  margin-left: 24pc;
+  position: absolute;
+  font-size: 40px;
+  z-index: 10%;
+  font-weight: bolder;
+}
+.Tark {
+  margin-bottom: 5pc;
+  height: 4pc;
+}
+.mark:hover {
+  display: none;
+}
+li {
+  list-style: none;
+}
+.fa-angle-right {
+  color: rgb(27, 27, 27);
+  margin-left: 20pc;
+}
+.solid {
+  color: rgb(27, 27, 27);
+  margin-left: 20pc;
+  display: flex;
+  margin-top: 1pc;
+  font-size: 3pc;
+  margin: 1px;
+  margin-left: 22pc;
+}
+
+ .btn-content ul div:hover {
+   background-color: rgb(230, 227, 227);
+ }
+ .btn-content ul {
+   padding-top: 9px;
+ }
+ .black {
+   position: absolute;
+   width: 0%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.7);
+ }
+ .black.active {
+   width: 100%;
+   z-index: 100%;
+ }
+
+ 
+/**End Pannal**/
+       /**Hero Section**/
+.sec-1 {
+  position: relative;
+  width: 120%;
+  height: 120%;
+  box-sizing: border-box;
+  transition: all 0.5;
+}
+.slide img {
+  width: 1269px;
+  height: 120%;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 560px;
+}
+.img-box {
+  display: flex;
+  position: absolute;
+  animation: carousel 15s alternate infinite;
+  
+}
+/**End**/
+          /**Hero message**/
+          
+   .container-1 {
+  position: absolute;
+  z-index: 1;
+  top: 39.5pc;
+  left: 0;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2.6pc;
+}
+.container-1 .para {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+Paragraph {
+  margin-left: 1pc;
+}
+.Seller1 a{
+  color: deepskyblue;
+text-decoration: none;
+font-size: 1rem;
+
+}
+ .deals {
+  color: deepskyblue;
+text-decoration: none;
+font-size: 1rem;
+
+}
+
+.deals:hover {
+  color: dodgerblue;
+  padding: 0;
+}
+.container-1 div:first-child {
+  font-size: 14px;
+  padding: 10px 0;
+}
+/**End**/
+
+   /**Shopsection**/
+           
+.shopsection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ margin-right: 50pc;
+ width: 120%;
+ padding-top: 1.6pc;
+margin-left: 1px;
+margin-right: 1px;
+}
+.box {
+height: 450px;
+  width: 370px;
+  background-color: white;
+  margin-top: 5px;
+  padding: 20px 0 10px;
+  margin-left: 1pc;
+}
+.box-img {
+  height: 365px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box  div .Set{
+  width: 317px;
+  height: 370px;
+  cursor: pointer;
+  margin-left: -20px;
+  margin-right: 2px;
+  margin-left: 0.50pc;
+}
+
+.Set img {
+  height: 390px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.boxcontent {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.boxcontent {
+  color: black;
+}
+h2 {
+  color: #000000;
+}
+.Anchor {
+ color: black;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    border-top: 1px solid deepskyblue;
+    margin-top: 3pc;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 29px;
+    font-style: italic;
+}
+ .Top {
+          position: absolute;
+          bottom: 0;
+          padding-top:1pc;
+          margin-top: 84.9pc;
+          width: 100%;
+          font-size: 2rem;
+          font-weight: bolder;
+          
+        }
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+}
+  #backToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Place the button at the bottom of the page */ /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap other elements */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #232f3e; /* Set background color */
+    color: white; /* Set text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 22px; /* Increase font size */
+}
+
+#backToTopBtn:hover {
+    background-color: #555; /* Add a dark-gray background on hover */
+}
