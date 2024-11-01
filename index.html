@@ -4,20 +4,538 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>HTML</title>
-  
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
+  <title>Cellizon</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+<style>
+  .Hero_S {
+    width: 120%;
+         height: 40pc;
+  }
+  .footer {
+          width: 120%;
+          margin-top: 2pc;
+         height: 40pc;
+        }
+  body {
+      background-color: #EDEFEF;
+    }
+    
+ .Sign {
+   color: #FFFFFF;
+ }
+ 
+ .S-Sign {
+   color: black;
+   font-size: 1.1rem;
+   font-style: italic;
+   
+ }
+ 
+  .S-Sign:hover {
+    color: deepskyblue;
+    font-weight: bolder;
+  }
+  
+ .Seller2 {
+   font-size: 1.2rem;
+   font-weight: 500;
+   margin: 1pc;
+   color: blue;
+   padding-top: 33pc;
+ }
+.Seller1 a{
+  color: deepskyblue;
+text-decoration: none;
+font-size: 1rem;
 
+}
+ .Seller3 {
+   font-size: 1.1rem;
+   color: #75C8F3;
+   font-weight: lighter;
+   text-decoration: none;
+   margin-left: 1pc;
+   margin-bottom: 1pc;
+ }
+ . Paragraph {
+   font-size: 1rem;
+   font-weight: bolder;
+ }
+  .deals {
+  color: deepskyblue;
+text-decoration: none;
+font-size: 1.2rem;
+margin-top: 22pc;
+font-weight: lighter;
+}
+
+.deals:hover {
+  color: black;
+  padding: 0;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+
+
+</style>
 <body>
-  <h1>Hello What are you doing!</h1>
-  <p>Nothing to see here...</p>
-  <!-- Project -->
+    <button style="height: 4pc" class="Top" onclick="topFunction()" id="backToTopBtn">Back to Top</button>
+   <header>
+  <nav class="navbar">
+    <div class="navlogo ">
+      <div class="logo">
+      </div>
+  </header>
+  <section class="B-Pannel">
+    <div class="pannel">
+      <div class="pannelall">
+        <p class="left border" onclick="showSidebar()">☰ All</p>
+      <a href="/Price Pakages:-/$700-7/D.html" class="left Border ">Secial deal's</a>
+      <a  href="/Registration-box/Registration.html" class=" Registry left Border">Registry</a>
+        <a href="/Term & Policy-Box/Term.html" class="left Border">Term & Conditions</a>
+      <a href="/Privacy Policy-Box/Privacy.html" class="left Border">Privacy Policy</a>
+      <a href="/One-Plue-M P-6/Plus.html" class="left Border">Trending</a>
+    </div>
+  <div class="paneldeals Border">
+    <a href="/index.html" class="left Border">Shop deals in Andriod</a>
+  </div>
+      </div>
+    </div>
+  </section>
+   <section class="sec-1">
+  <div class="container">
+    <div class="slider">
+      <div class="img-box">
+      
+        <div class="slide">
+         <img  class="Hero_S" src="/Price Pakages:-/Hero Section/Hero3.jpg" class="img-fluid " alt="...">
+        </div>
+        <div class="slide">
+         <img  class="Hero_S" src="/Price Pakages:-/Hero Section/Hero2.jpg" class="img-fluid " alt="...">
+        </div>
+        <div class="slide">
+          <img src="/Price Pakages:-/Hero Section/Hero7.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="/Price Pakages:-/Hero Section/Hero5.jpg" alt="">
+        </div>
+ 
+      </div>
+     
+       <div class="container-1">
+      <div class="para">
+        <p class="Paragraph">" You are on Cellizon.com.You can also shop on Amazing for millions of mobiles with fast Amazon delivery."<a  class="Seller1 deals" href="/Privacy Policy-Box/Privacy.html">Click here to more Details!</a></p>
+      </div>
+      </div>
+      </section>
+             <div class="sidebar">
+      <div class="btn-head">
+        <div>
+        <h2>Hello sign.in</h2>
+      </div>
+      <a onclick="hideSidebar()" class="solid" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+      <div class="btn-content">
+        <h3>Featured Brand's</h3>
+        <ul>
+          <div>
+            <a href="/Apple-M  P-1 /Apple.html">Apple<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+            <div>
+            <a href="/One-Plue-M P-6/Plus.html">One-Plus<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <div>
+            <a href="/Samsung-M P-2/Samsung.html">SAMSUNG<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <div>
+            <a href="/Motorola-M P-2/Motorola.html">Motorola<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          
+          <div>
+            <a href="/Plum-M P-5/Plum.html">Plum<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <div>
+            <a href="/Google-M P-7/Google.html">Google<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+           
+          <hr>
+        </ul>
+      </div>
+      <div class="btn-content">
+        <h3>Operating System</h3>
+        <ul>
+        
+          <div>
+            <a href="/Operating System /BlackBerry /Black.html">Black-burry<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <div>
+            <a href="/Apple-M  P-1 /Apple.html">iOS<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+            <div>
+            <a href="/Mobile Department /Unlocked M-1/Unlock.html">Unlocked<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <hr>
+        </ul>
+      </div>
+      <div class="btn-content">
+        <h3>Price Packages</h3>
+        <ul>
+          <div>
+            <a href="/Price Pakages:-/$50-1/D.html">Up to $50<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+         <div>
+            <a href="/Price Pakages:-/$150-3/D.html">$50 to $150<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <div>
+            <a href="/Price Pakages:-/$200-4/D.html">$150 to $250<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <div>
+            <a href="/Price Pakages:-/$400-5/D.html">$250 to $400<i class="fa-solid fa-angle-right"></i></a>
+        </div>
+          <div>
+            <a href="/Price Pakages:-/$600-6/D.html">$400 to $600<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <div>
+            <a href="/Price Pakages:-/$700-7/D.html">$600 above<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          
+          <hr>
+        </ul>
+      </div>
+      
+      <div class="btn-content">
+        <h3>Help & Settings</h3>
+        <ul>
+       
+          <div>
+            <a href="https://www.amazon.com/customer-preferences/edit?preferencesReturnUrl=%2F&linkCode=ll2&tag=amnstore0e-20&linkId=d67a36febeb8240fa17daca2942dfecb&language=en_US&ref_=as_li_ss_tl">English<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <div>
+            <a href="https://www.amazon.com/customer-preferences/country?&linkCode=ll2&tag=amnstore0e-20&linkId=da0ad38bb80b852006feb1f2ce84b31c&language=en_US&ref_=as_li_ss_tl">United State<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <div>
+            <a href="https://www.amazon.com/hz/contact-us/foresight/hubgateway?&linkCode=ll2&tag=amnstore0e-20&linkId=926a5557930ebf0cef1f14951383d5f8&language=en_US&ref_=as_li_ss_tl">Help Center<i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </ul>
+      </div>
+      </div>
+      </div>
+      <div class="black">
+      </div>
+      ""
+      <div class="shopsection">
+      <div class="box2 box ">
+    <div class="boxcontent">
+     <h2 class="Head"><i>SAMSUNG Galaxy A25 5G A</i></h2>
+  <div class="box-img">
+     <img class="Set" src="/Home-Page images/M1.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/SAMSUNG-Unlocked-Smartphone-Advanced-Expandable/dp/B0CN1Q2X3B?dib=eyJ2IjoiMSJ9.x3r5NDTSOug4ijeEMn-QcMY8CNwim5yjt-r2bCyNJTdVRmkwJuVKdzi62yIcm93PpUSTutfsAswcmCJGjXZSAxGe8wE_RhrAGwb292s4TRl7OErtGw-HRBJ9mHUNTr3pwIMcT3GIUbClFr_GsaLCRQUwy9lWIgr-hu5zxL0BBciWdz6V5SO5WLBgzi4ZGesyYpYi1NjX9D0bI-EAIb0M8Y9i3DsX76by9t5l8gFuHUKOmMi5OzG1qSMlZAoxGlPdqx3GEguvEMVxEB5_KZ9HBBxws59FhqHTMiAZoTVzP84.jRHLcr9ZmhKMjkCPwx0mqF5IV_QeuPfMWK-WCWG6r_k&dib_tag=se&qid=1727536269&s=wireless&sr=1-21&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=fa2f0b00666c55bdab78662beaa2ba02&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box ">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Apple iPhone 12 in 64GB</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M2.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Apple-iPhone-12-64GB-Black/dp/B08PP5MSVB?pf_rd_p=53d84f87-8073-4df1-9740-1bf3fa798149&pf_rd_r=BWPGRJAZCDGDNGY6ABVR&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=b7f72136219d8964831d23240b4928ba&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box ">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy A15 in 128GB</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M3.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Samsung-SM-155M-DSN-Unlocked-International/dp/B0CSB22F9C?pf_rd_p=53d84f87-8073-4df1-9740-1bf3fa798149&pf_rd_r=BWPGRJAZCDGDNGY6ABVR&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=28f7f046d20d39fdff5cdec91a88208f&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+
+      </div>
+      <div class="shopsection">
+      <div class="box2 box ">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy A03s in 32GB</i></h2>
+  <div class="box-img">
+     <img class="Set" src="/Home-Page images/M4.jpg" alt="">
+   </div>
+   <a href=" https://www.amazon.com/Samsung-Unlocked-Smartphone-Expandable-Infinite/dp/B09SM24S8C?pf_rd_p=53d84f87-8073-4df1-9740-1bf3fa798149&pf_rd_r=BWPGRJAZCDGDNGY6ABVR&linkCode=ll1&tag=amnstore0e-20&linkId=69af1cb3388f691ef6d2e64725c70245&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+       <div class="box2 box">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy A15 in 128GB</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M5.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/SAMSUNG-Unlocked-Smartphone-Expandable-Security/dp/B0CN1QSH8Q?pf_rd_p=53d84f87-8073-4df1-9740-1bf3fa798149&pf_rd_r=BWPGRJAZCDGDNGY6ABVR&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=a37dfb698c04095a10492a5ef377aa32&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box ">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Apple iPhone 11 in 64GB </i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M6.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Apple-iPhone-11-64GB-Black/dp/B07ZPKN6YR?pf_rd_p=53d84f87-8073-4df1-9740-1bf3fa798149&pf_rd_r=BWPGRJAZCDGDNGY6ABVR&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=fc8e5bc6de64a534edc7dfdb5ae03db8&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+
+      </div>
+         <div class="shopsection">
+      <div class="box2 box order">
+    <div class="boxcontent">
+     <h2 class="Head"><i>One-Plus Nord N30 (5G)</i></h2>
+  <div class="box-img">
+     <img class="Set" src="/Home-Page images/M7.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/OnePlus-Unlocked-Dual-SIM-Charging-Chromatic/dp/B0C22BRGLG?dib=eyJ2IjoiMSJ9.VN0uAgWzZDlJRJUReBmGbm10afhXB_E1wEm8KllzR0soRGr8IBMhXhhM4GfWXxRDZ110Xg_qgfalMQ0WEUXMTwV9iyLRRWHFiu1ocPLKVwBJnCeCE9x2Zxy3HRUy2tOmvozAPV7MboFcuOy0XbaiIn9QOzg5EVR-PeiVcUGnSzhBZpkJy1UugaBuGcs2132wXw5DcKaW1gQj6syPKGbwQ8hKOyncJKa5F_rZeA0g_iyMZFkwYtsb9aA-SZB02j0U2mmPfj9wBhICTuOzYwnqHTOXhk3OA0876TiFnWHkes4.Orp6s9Q0SZSNvY_XmzM94evNbRbrY5C0jLIyI26jNHI&dib_tag=se&qid=1727428918&s=wireless&sr=1-10&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=495f33431b00df75ae73f646a3ec7e77&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+   </div>
+ </div>
+  <div class="box2 box order">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Apple iPhone 14 (128GB)</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M8.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/iPhone-13-128GB-Midnight-Unlocked/dp/B0BGQKY8S9?dib=eyJ2IjoiMSJ9.x3r5NDTSOug4ijeEMn-QcMY8CNwim5yjt-r2bCyNJTdVRmkwJuVKdzi62yIcm93PpUSTutfsAswcmCJGjXZSAxGe8wE_RhrAGwb292s4TRl7OErtGw-HRBJ9mHUNTr3pwIMcT3GIUbClFr_GsaLCRQUwy9lWIgr-hu5zxL0BBciWdz6V5SO5WLBgzi4ZGesyYpYi1NjX9D0bI-EAIb0M8Y9i3DsX76by9t5l8gFuHUKOmMi5OzG1qSMlZAoxGlPdqx3GEguvEMVxEB5_KZ9HBBxws59FhqHTMiAZoTVzP84.jRHLcr9ZmhKMjkCPwx0mqF5IV_QeuPfMWK-WCWG6r_k&dib_tag=se&qid=1727536269&s=wireless&sr=1-16&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=bb4679c93557199d07b3a96e45814775&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box order">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Apple iPhone 13 (128GB)</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M9.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/iPhone-13-128GB-Midnight-Unlocked/dp/B0BGQKY8S9?dib=eyJ2IjoiMSJ9.x3r5NDTSOug4ijeEMn-QcMY8CNwim5yjt-r2bCyNJTdVRmkwJuVKdzi62yIcm93PpUSTutfsAswcmCJGjXZSAxGe8wE_RhrAGwb292s4TRl7OErtGw-HRBJ9mHUNTr3pwIMcT3GIUbClFr_GsaLCRQUwy9lWIgr-hu5zxL0BBciWdz6V5SO5WLBgzi4ZGesyYpYi1NjX9D0bI-EAIb0M8Y9i3DsX76by9t5l8gFuHUKOmMi5OzG1qSMlZAoxGlPdqx3GEguvEMVxEB5_KZ9HBBxws59FhqHTMiAZoTVzP84.jRHLcr9ZmhKMjkCPwx0mqF5IV_QeuPfMWK-WCWG6r_k&dib_tag=se&qid=1727536269&s=wireless&sr=1-16&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=bb4679c93557199d07b3a96e45814775&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+
+      </div>
+      <div class="shopsection">
+      <div class="box2 box order">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Google Pixel 7 Pro (5G) </i></h2>
+  <div class="box-img">
+     <img class="Set" src="/Home-Page images/M10.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Google-Pixel-Pro-Smartphone-Telephoto/dp/B0BCQXG46W?dib=eyJ2IjoiMSJ9.x3r5NDTSOug4ijeEMn-QcMY8CNwim5yjt-r2bCyNJTdVRmkwJuVKdzi62yIcm93PpUSTutfsAswcmCJGjXZSAxGe8wE_RhrAGwb292s4TRl7OErtGw-HRBJ9mHUNTr3pwIMcT3GIUbClFr_GsaLCRQUwy9lWIgr-hu5zxL0BBciWdz6V5SO5WLBgzi4ZGesyYpYi1NjX9D0bI-EAIb0M8Y9i3DsX76by9t5l8gFuHUKOmMi5OzG1qSMlZAoxGlPdqx3GEguvEMVxEB5_KZ9HBBxws59FhqHTMiAZoTVzP84.jRHLcr9ZmhKMjkCPwx0mqF5IV_QeuPfMWK-WCWG6r_k&dib_tag=se&qid=1727536269&s=wireless&sr=1-20&linkCode=ll1&tag=amnstore0e-20&linkId=ff6af75fd8bb2f618e728207bcc237d6&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box order">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy S21 Ultra 5G</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M11.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Galaxy-S21-Ultra-5G-Smartphone/dp/B096T6Y623?pf_rd_p=53d84f87-8073-4df1-9740-1bf3fa798149&pf_rd_r=BWPGRJAZCDGDNGY6ABVR&linkCode=ll1&tag=amnstore0e-20&linkId=78bc4bc4031b1448887d56194aeb52be&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box order">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Motorola Edge+ for US (8/512)</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M12.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Motorola-Unlocked-MPCamera-Intersteller-161-16x74x8-59/dp/B0C2W7YYHM?dib=eyJ2IjoiMSJ9.x3r5NDTSOug4ijeEMn-QcMY8CNwim5yjt-r2bCyNJTdVRmkwJuVKdzi62yIcm93PpUSTutfsAswcmCJGjXZSAxGe8wE_RhrAGwb292s4TRl7OErtGw-HRBJ9mHUNTr3pwIMcT3GIUbClFr_GsaLCRQUwy9lWIgr-hu5zxL0BBciWdz6V5SO5WLBgzi4ZGesyYpYi1NjX9D0bI-EAIb0M8Y9i3DsX76by9t5l8gFuHUKOmMi5OzG1qSMlZAoxGlPdqx3GEguvEMVxEB5_KZ9HBBxws59FhqHTMiAZoTVzP84.jRHLcr9ZmhKMjkCPwx0mqF5IV_QeuPfMWK-WCWG6r_k&dib_tag=se&qid=1727536269&s=wireless&sr=1-24&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=d8b7783817e89bddb5f307738874f6a5&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+
+      </div>
+       <a href="https://www.amazon.com/cell-phone-devices/b?ie=UTF8&node=7072561011&linkCode=ll2&tag=amnstore0e-20&linkId=a7de8d017a197ce3f97079657529a135&language=en_US&ref_=as_li_ss_tl"><img  class="footer" src="/Hero-Section Images/Hero4.jpg" class="img-fluid " alt="..."></a>
+      <div class="shopsection">
+      <div class="box2 box order">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Apple iPhone (US-Version)</i></h2>
+  <div class="box-img">
+     <img class="Set" src="/Home-Page images/M13.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Apple-iPhone-SE-64GB-Black/dp/B088NQXD8T?pf_rd_p=53d84f87-8073-4df1-9740-1bf3fa798149&pf_rd_r=NTCGVG94NCXAKV676FM4&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=e623124add487fe6979d51acaeced34a&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box order">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy S21 in (US) </i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M14.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Samsung-Galaxy-S21-5G-Version/dp/B08VLMQ3KS?pf_rd_p=53d84f87-8073-4df1-9740-1bf3fa798149&pf_rd_r=NTCGVG94NCXAKV676FM4&linkCode=ll1&tag=amnstore0e-20&linkId=ba3af0e005ecca00f2351298bda60389&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box rder">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Mota G Play for US (3/32GB)</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M15.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Moto-3-Day-Battery-Unlocked-Camera/dp/B0BQ118F2T?dib=eyJ2IjoiMSJ9.VN0uAgWzZDlJRJUReBmGbm10afhXB_E1wEm8KllzR0soRGr8IBMhXhhM4GfWXxRDZ110Xg_qgfalMQ0WEUXMTwV9iyLRRWHFiu1ocPLKVwBJnCeCE9x2Zxy3HRUy2tOmvozAPV7MboFcuOy0XbaiIn9QOzg5EVR-PeiVcUGnSzhBZpkJy1UugaBuGcs2132wXw5DcKaW1gQj6syPKGbwQ8hKOyncJKa5F_rZeA0g_iyMZFkwYtsb9aA-SZB02j0U2mmPfj9wBhICTuOzYwnqHTOXhk3OA0876TiFnWHkes4.Orp6s9Q0SZSNvY_XmzM94evNbRbrY5C0jLIyI26jNHI&dib_tag=se&qid=1727428918&s=wireless&sr=1-5&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=4948936f986d20c1ea630af4132bd822&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+
+      </div>
+      <div class="shopsection">
+      <div class="box2 box order">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy S22 (128GB)</i></h2>
+  <div class="box-img">
+     <img class="Set" src="/Home-Page images/M16.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Samsung-Smartphone-Unlocked-Brightest-Processor/dp/B09V5LDZQ4?dib=eyJ2IjoiMSJ9.VN0uAgWzZDlJRJUReBmGbm10afhXB_E1wEm8KllzR0soRGr8IBMhXhhM4GfWXxRDZ110Xg_qgfalMQ0WEUXMTwV9iyLRRWHFiu1ocPLKVwBJnCeCE9x2Zxy3HRUy2tOmvozAPV7MboFcuOy0XbaiIn9QOzg5EVR-PeiVcUGnSzhBZpkJy1UugaBuGcs2132wXw5DcKaW1gQj6syPKGbwQ8hKOyncJKa5F_rZeA0g_iyMZFkwYtsb9aA-SZB02j0U2mmPfj9wBhICTuOzYwnqHTOXhk3OA0876TiFnWHkes4.Orp6s9Q0SZSNvY_XmzM94evNbRbrY5C0jLIyI26jNHI&dib_tag=se&qid=1727428918&s=wireless&sr=1-6&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=cd7bea54b6407f0b476bc56d1213d2a7&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box rder">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Moto G Style for US (5G)</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M17.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Motorola-Stylus-Unlocked-MPCamera-Cosmic/dp/B0C2S6TKTL?dib=eyJ2IjoiMSJ9.uth1VL3VVb0Zw0Ws0yQpOHIKK9F2pYuCU0O7ch28QlP72IvFI1UIP7HqFfvbEEsKRCiLNF7AzqNUhLsuB-v2KfzjRcuIFOydxXGygrrbkk-KXh7wSBMBnPtUJdN6OS2Y4tYM94EOskd378sCL5KpxEZMkjmfTGWDURVGo0xoBIBYf60r9kZiila3dbUEdCL76GeaXUItM65FAjl09Gfp4mUFKe9F80-uuoFcyiSjUrhK_vE5AM5Gg4wOFvJXJ3_q0b3M8k9RX8KHWXuuj0zHFcocw03-FP1ZJsS9KDLi8UY.MSoL2fIvgvWEqKxlLPfx4GPwi2T39bLYyReCRFL_9PU&dib_tag=se&qid=1727712609&refinements=p_89%3AMotorola&rnid=2528832011&s=wireless&sr=1-4&linkCode=ll1&tag=amnstore0e-20&linkId=8e2fee13d8ab51cfd4d188510feef225&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box rder">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Motorola Moto G Style (5G)</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M18.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Stylus-Unlocked-256GB-Camera-Caramel/dp/B0D1ZFS9GH?dib=eyJ2IjoiMSJ9.uth1VL3VVb0Zw0Ws0yQpOHIKK9F2pYuCU0O7ch28QlP72IvFI1UIP7HqFfvbEEsKRCiLNF7AzqNUhLsuB-v2KfzjRcuIFOydxXGygrrbkk-KXh7wSBMBnPtUJdN6OS2Y4tYM94EOskd378sCL5KpxEZMkjmfTGWDURVGo0xoBIBYf60r9kZiila3dbUEdCL76GeaXUItM65FAjl09Gfp4mUFKe9F80-uuoFcyiSjUrhK_vE5AM5Gg4wOFvJXJ3_q0b3M8k9RX8KHWXuuj0zHFcocw03-FP1ZJsS9KDLi8UY.MSoL2fIvgvWEqKxlLPfx4GPwi2T39bLYyReCRFL_9PU&dib_tag=se&qid=1727712609&refinements=p_89%3AMotorola&rnid=2528832011&s=wireless&sr=1-5&linkCode=ll1&tag=amnstore0e-20&linkId=7315e16fc54fa813b685e20abc5ae249&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+
+      </div>
+         <div class="shopsection">
+      <div class="box2 box order">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Motorola Moto G Power (5G) </i></h2>
+  <div class="box-img">
+     <img class="Set" src="/Home-Page images/M19.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Moto-3-Day-Battery-Unlocked-Camera/dp/B0BQ118F2T?dib=eyJ2IjoiMSJ9.VN0uAgWzZDlJRJUReBmGbm10afhXB_E1wEm8KllzR0soRGr8IBMhXhhM4GfWXxRDZ110Xg_qgfalMQ0WEUXMTwV9iyLRRWHFiu1ocPLKVwBJnCeCE9x2Zxy3HRUy2tOmvozAPV7MboFcuOy0XbaiIn9QOzg5EVR-PeiVcUGnSzhBZpkJy1UugaBuGcs2132wXw5DcKaW1gQj6syPKGbwQ8hKOyncJKa5F_rZeA0g_iyMZFkwYtsb9aA-SZB02j0U2mmPfj9wBhICTuOzYwnqHTOXhk3OA0876TiFnWHkes4.Orp6s9Q0SZSNvY_XmzM94evNbRbrY5C0jLIyI26jNHI&dib_tag=se&qid=1727428918&s=wireless&sr=1-5&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=4948936f986d20c1ea630af4132bd822&language=en_US&ref_=as_li_ss_tl">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box rder">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Motorola Moto G Style (3/32G)</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M20.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Stylus-Unlocked-256GB-Camera-Caramel/dp/B0D1ZFS9GH?dib=eyJ2IjoiMSJ9.x3r5NDTSOug4ijeEMn-QcMY8CNwim5yjt-r2bCyNJTdVRmkwJuVKdzi62yIcm93PpUSTutfsAswcmCJGjXZSAxGe8wE_RhrAGwb292s4TRl7OErtGw-HRBJ9mHUNTr3pwIMcT3GIUbClFr_GsaLCRQUwy9lWIgr-hu5zxL0BBciWdz6V5SO5WLBgzi4ZGesyYpYi1NjX9D0bI-EAIb0M8Y9i3DsX76by9t5l8gFuHUKOmMi5OzG1qSMlZAoxGlPdqx3GEguvEMVxEB5_KZ9HBBxws59FhqHTMiAZoTVzP84.jRHLcr9ZmhKMjkCPwx0mqF5IV_QeuPfMWK-WCWG6r_k&dib_tag=se&qid=1727536269&s=wireless&sr=1-15&linkCode=ll1&tag=amnstore0e-20&linkId=9b9888ca39ef2efcbfb1040f54d4d9c5&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+   <div class="box2 box r">
+     <div class="boxcontent">
+       <h2 class="Head"><i>Motorola Moto G Pure(3/32GB)</i></h2>
+       <div class="box-img">
+         <img class="Set" src="/Motorola-M P-2/Motorola-Page Images /M18.jpg" alt="">
+       </div>
+       <a href="https://www.amazon.com/battery-Unlocked-Motorola-Camera-Indigo/dp/B09BTB5MKT?dib=eyJ2IjoiMSJ9.x3r5NDTSOug4ijeEMn-QcMY8CNwim5yjt-r2bCyNJTdVRmkwJuVKdzi62yIcm93PpUSTutfsAswcmCJGjXZSAxGe8wE_RhrAGwb292s4TRl7OErtGw-HRBJ9mHUNTr3pwIMcT3GIUbClFr_GsaLCRQUwy9lWIgr-hu5zxL0BBciWdz6V5SO5WLBgzi4ZGesyYpYi1NjX9D0bI-EAIb0M8Y9i3DsX76by9t5l8gFuHUKOmMi5OzG1qSMlZAoxGlPdqx3GEguvEMVxEB5_KZ9HBBxws59FhqHTMiAZoTVzP84.jRHLcr9ZmhKMjkCPwx0mqF5IV_QeuPfMWK-WCWG6r_k&dib_tag=se&qid=1727536269&s=wireless&sr=1-19&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=8fa4268872e36500ba397ba3a4d4c065&language=en_US&ref_=as_li_ss_tl"  class="Seller3 deals">See Details</a>
+     </div>
+   </div>
+
+      </div>
+      <div class="shopsection">
+      <div class="box2 box order">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Apple iPhone 13 in 128GB</i></h2>
+  <div class="box-img">
+     <img class="Set" src="/Home-Page images/M22.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/iPhone-13-128GB-Midnight-Unlocked/dp/B0BGQKY8S9?dib=eyJ2IjoiMSJ9.x3r5NDTSOug4ijeEMn-QcMY8CNwim5yjt-r2bCyNJTdVRmkwJuVKdzi62yIcm93PpUSTutfsAswcmCJGjXZSAxGe8wE_RhrAGwb292s4TRl7OErtGw-HRBJ9mHUNTr3pwIMcT3GIUbClFr_GsaLCRQUwy9lWIgr-hu5zxL0BBciWdz6V5SO5WLBgzi4ZGesyYpYi1NjX9D0bI-EAIb0M8Y9i3DsX76by9t5l8gFuHUKOmMi5OzG1qSMlZAoxGlPdqx3GEguvEMVxEB5_KZ9HBBxws59FhqHTMiAZoTVzP84.jRHLcr9ZmhKMjkCPwx0mqF5IV_QeuPfMWK-WCWG6r_k&dib_tag=se&qid=1727536269&s=wireless&sr=1-16&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=bb4679c93557199d07b3a96e45814775&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box rder">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy S20 (FE 5G)</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M23.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Samsung-Galaxy-128GB-Cloud-Mint/dp/B08L34NZDM?dib=eyJ2IjoiMSJ9.XejOK5vi8R4zDZeOXQGa6piJdIZ64cleanNxDvTmR1U9ezYvVC6NJHH_JnmwBBloOYB4h-nylKt5XP76mKJpTo0uBl-dP9c4uiAeRSVJu33SJq2GmaQ_ezSslMoDWRTpbSD_g0yPh6XJ8nHna8w6B6dWZTCeidvhAXhrmDvjJGkznB6iHpNfiBcnH8rob33hecaduvAdXKqqCKaVKauN4vyKEt4rdM4o1W35lfCYEoSZJF64zME7VSJn8MbBi1cqiurpvObMdhz0XVRR2kDKgSx5_k7ddKzj22r1RFy0oks.nqsNDanZnHova3BiZwCENLATJFxHIB2KyxRuitvXrO8&dib_tag=se&qid=1727583773&refinements=p_89%3ASAMSUNG&rnid=2528832011&s=wireless&sr=1-10&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=3fbf473e60c761cfc0e16880b5c94f50&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box rder">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy A13 (5G)</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M24.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Galaxy-A13-5G-Smartphone-Expandable/dp/B09T3MQSVP?dib=eyJ2IjoiMSJ9.XejOK5vi8R4zDZeOXQGa6piJdIZ64cleanNxDvTmR1U9ezYvVC6NJHH_JnmwBBloOYB4h-nylKt5XP76mKJpTo0uBl-dP9c4uiAeRSVJu33SJq2GmaQ_ezSslMoDWRTpbSD_g0yPh6XJ8nHna8w6B6dWZTCeidvhAXhrmDvjJGkznB6iHpNfiBcnH8rob33hecaduvAdXKqqCKaVKauN4vyKEt4rdM4o1W35lfCYEoR3vwsemkgWqQdoOAeDgUoZb7-S3J8ZnyfEj-qlesI9d2TF6bbz_cE3UKMnKXmqCs0.C9PSIZfn8TMRMqMQzQ_ZjmgmcqhBtCuWNVS_HZvTxt0&dib_tag=se&qid=1727582498&refinements=p_89%3ASAMSUNG&rnid=2528832011&s=wireless&sr=1-5&linkCode=ll1&tag=amnstore0e-20&linkId=e8904d3db95300ea01af479cbe0919c7&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+
+      </div>
+      <div class="shopsection">
+      <div class="box2 box bder">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Motorola Razr for (US Version)</i></h2>
+  <div class="box-img">
+     <img class="Set" src="/Home-Page images/M25.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Motorola-Unlocked-Camera-170-82-7-35mm/dp/B0CGVXZSQJ?dib=eyJ2IjoiMSJ9.x3r5NDTSOug4ijeEMn-QcMY8CNwim5yjt-r2bCyNJTdVRmkwJuVKdzi62yIcm93PpUSTutfsAswcmCJGjXZSAxGe8wE_RhrAGwb292s4TRl7OErtGw-HRBJ9mHUNTr3pwIMcT3GIUbClFr_GsaLCRQUwy9lWIgr-hu5zxL0BBciWdz6V5SO5WLBgzi4ZGesyYpYi1NjX9D0bI-EAIb0M8Y9i3DsX76by9t5l8gFuHUKOmMi5OzG1qSMlZAoxGlPdqx3GEguvEMVxEB5_KZ9HBBxws59FhqHTMiAZoTVzP84.jRHLcr9ZmhKMjkCPwx0mqF5IV_QeuPfMWK-WCWG6r_k&dib_tag=se&qid=1727536269&s=wireless&sr=1-17&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=cef5bed9e2896553c229075a735ca5cf&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box rder">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy S23 (FE : AI)</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M26.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/SAMSUNG-Unlocked-Smartphone-Processor-Graphite/dp/B0CD8NF62Z?dib=eyJ2IjoiMSJ9.x3r5NDTSOug4ijeEMn-QcMY8CNwim5yjt-r2bCyNJTdVRmkwJuVKdzi62yIcm93PpUSTutfsAswcmCJGjXZSAxGe8wE_RhrAGwb292s4TRl7OErtGw-HRBJ9mHUNTr3pwIMcT3GIUbClFr_GsaLCRQUwy9lWIgr-hu5zxL0BBciWdz6V5SO5WLBgzi4ZGesyYpYi1NjX9D0bI-EAIb0M8Y9i3DsX76by9t5l8gFuHUKOmMi5OzG1qSMlZAoxGlPdqx3GEguvEMVxEB5_KZ9HBBxws59FhqHTMiAZoTVzP84.jRHLcr9ZmhKMjkCPwx0mqF5IV_QeuPfMWK-WCWG6r_k&dib_tag=se&qid=1727536269&s=wireless&sr=1-13&linkCode=ll1&tag=amnstore0e-20&linkId=3f975299d49910b8a5f8e9d569c7f950&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box der">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy S24+ Plus </i></i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M27.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/SAMSUNG-Smartphone-Unlocked-Android-Processor/dp/B0CMDL3H3V?dib=eyJ2IjoiMSJ9.x3r5NDTSOug4ijeEMn-QcMY8CNwim5yjt-r2bCyNJTdVRmkwJuVKdzi62yIcm93PpUSTutfsAswcmCJGjXZSAxGe8wE_RhrAGwb292s4TRl7OErtGw-HRBJ9mHUNTr3pwIMcT3GIUbClFr_GsaLCRQUwy9lWIgr-hu5zxL0BBciWdz6V5SO5WLBgzi4ZGesyYpYi1NjX9D0bI-EAIb0M8Y9i3DsX76by9t5l8gFuHUKOmMi5OzG1qSMlZAoxGlPdqx3GEguvEMVxEB5_KZ9HBBxws59FhqHTMiAZoTVzP84.jRHLcr9ZmhKMjkCPwx0mqF5IV_QeuPfMWK-WCWG6r_k&dib_tag=se&qid=1727536269&s=wireless&sr=1-18&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=7ad79dde7b95f80870fd6638e9baeb4c&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+
+      </div>
+      <div class="shopsection">
+      <div class="box2 box rder">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy S24 (Ultra) </i></h2>
+  <div class="box-img">
+     <img class="Set" src="/Home-Page images/M28.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/SAMSUNG-Smartphone-Unlocked-Android-Titanium/dp/B0CMDMKQB7?dib=eyJ2IjoiMSJ9.VN0uAgWzZDlJRJUReBmGbm10afhXB_E1wEm8KllzR0soRGr8IBMhXhhM4GfWXxRDZ110Xg_qgfalMQ0WEUXMTwV9iyLRRWHFiu1ocPLKVwBJnCeCE9x2Zxy3HRUy2tOmvozAPV7MboFcuOy0XbaiIn9QOzg5EVR-PeiVcUGnSzhBZpkJy1UugaBuGcs2132wXw5DcKaW1gQj6syPKGbwQ8hKOyncJKa5F_rZeA0g_iyMZFkwYtsb9aA-SZB02j0U2mmPfj9wBhICTuOzYwnqHTOXhk3OA0876TiFnWHkes4.Orp6s9Q0SZSNvY_XmzM94evNbRbrY5C0jLIyI26jNHI&dib_tag=se&qid=1727428918&s=wireless&sr=1-9&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=a5cbdaf7af43100fd49a10960d19640f&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box rder">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Samsung Galaxy A35 in 128GB</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M29.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/SAMSUNG-A35-Unlocked-Smartphone-Expandable/dp/B0CV4NQYFP?dib=eyJ2IjoiMSJ9.VN0uAgWzZDlJRJUReBmGbm10afhXB_E1wEm8KllzR0soRGr8IBMhXhhM4GfWXxRDZ110Xg_qgfalMQ0WEUXMTwV9iyLRRWHFiu1ocPLKVwBJnCeCE9x2Zxy3HRUy2tOmvozAPV7MboFcuOy0XbaiIn9QOzg5EVR-PeiVcUGnSzhBZpkJy1UugaBuGcs2132wXw5DcKaW1gQj6syPKGbwQ8hKOyncJKa5F_rZeA0g_iyMZFkwYtsb9aA-SZB02j0U2mmPfj9wBhICTuOzYwnqHTOXhk3OA0876TiFnWHkes4.Orp6s9Q0SZSNvY_XmzM94evNbRbrY5C0jLIyI26jNHI&dib_tag=se&qid=1727428918&s=wireless&sr=1-4&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=0bc04cbfd1286b3dc589a08cca24c383&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+  <div class="box2 box der">
+    <div class="boxcontent">
+     <h2 class="Head"><i>Google Pixel 8 (Unlocked)</i></h2>
+   <div class="box-img">
+     <img class="Set" src="/Home-Page images/M30.jpg" alt="">
+   </div>
+   <a href="https://www.amazon.com/Google-Pixel-Unlocked-Smartphone-Advanced/dp/B0CGTD5KVT?dib=eyJ2IjoiMSJ9.VN0uAgWzZDlJRJUReBmGbm10afhXB_E1wEm8KllzR0soRGr8IBMhXhhM4GfWXxRDZ110Xg_qgfalMQ0WEUXMTwV9iyLRRWHFiu1ocPLKVwBJnCeCE9x2Zxy3HRUy2tOmvozAPV7MboFcuOy0XbaiIn9QOzg5EVR-PeiVcUGnSzhBZpkJy1UugaBuGcs2132wXw5DcKaW1gQj6syPKGbwQ8hKOyncJKa5F_rZeA0g_iyMZFkwYtsb9aA-SZB02j0U2mmPfj9wBhICTuOzYwnqHTOXhk3OA0876TiFnWHkes4.Orp6s9Q0SZSNvY_XmzM94evNbRbrY5C0jLIyI26jNHI&dib_tag=se&qid=1727428918&s=wireless&sr=1-7&th=1&linkCode=ll1&tag=amnstore0e-20&linkId=a9b148f803c7386ab88331b3b40a3a91&language=en_US&ref_=as_li_ss_tl" class="Seller3 deals">See Details</a>
+  </div>
+ </div>
+
+      </div>
+    
+    
+  <br><br>
+<footer>
+    <br><br>
+      <img  class="footer" src="/Footer.png" class="img-flui" alt="...">
+     
+    </footer>
+   
+
   <script src="main.js"></script>
 </body>
 </html>
